@@ -138,6 +138,12 @@
     box-sizing: border-box;
     overflow: hidden;
    }
+
+   p {
+    margin-left: 200px;
+    margin-right: 200px;
+   }
+
    /* Border around the image */
    .about-item img {
     width: 100%;
@@ -159,6 +165,8 @@
     color: #333;
     margin: 0;
    }
+   
+ /* You can also use 'outside' to push the bullets further left */
   /* General styles for the page */
 body {
     font-family: Arial, sans-serif;
@@ -316,7 +324,18 @@ body {
   width: 100%;
   height: 320px; /* Adjust height for uniformity */
  }
-   
-   
+ 
+ /* About Us Section */
+.about-us ul {
+  list-style-position: inside; /* Moves the bullet points inside the list items */
+  padding-left: 20px; /* Adds space between the bullet points and the text */
+ }
+ .about-us ul li {
+  margin-bottom: 10px; /* Adds space between the list items */
+  line-height: 1.6; /* Adjusts the spacing between lines */
+  padding-left: 5px; /* Adjusts the space between the bullet and text */
+ }
+ /* You can also use 'outside' to push the bullets further left */
+
    
    
